@@ -26,5 +26,5 @@ To run the app locally, follow these steps:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/SharmaSheetal/Machine_Learning/Data Visualization Challenge.git
-cd Data Visualization Challenge
+https://github.com/SharmaSheetal/Machine_Learning.git
+cd Machine_Learning/Data Visualization Challenge
