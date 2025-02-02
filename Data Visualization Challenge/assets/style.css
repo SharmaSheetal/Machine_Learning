@@ -1,0 +1,75 @@
+/* Background Image */
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/* General Body Styling */
+.custom-graph {
+    background: rgba(255, 255, 255, 0.7); /* Slight transparency */
+    border-radius: 8px;
+}
+
+/* Centering Title */
+h4 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+}
+
+/* Text Styling for Paragraphs */
+p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Dropdown Styling */
+.custom-dropdown {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(178, 228, 192, 0.8); /* Semi-transparent background */
+    color: #333333;  /* Darker text color for readability */
+    border-radius: 5px;
+}
+
+/* Graph Containers */
+div[style*="padding: 20px"] {
+    padding: 20px;
+}
+
+/* Flexbox Layout for Graphs */
+html > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.custom-graph {
+    background: rgba(255, 255, 255, 0.7);  /* Slight transparency for graphs */
+
+}
+
+/* Styling for Dropdown Section */
+.custom-dropdown, .custom-dropdown select {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(170, 231, 191, 0.9);  /* Lighter background */
+    color: #333333;  /* Dark text for visibility */
+}
+
+/* Specific Styling for Title and Content */
+h4, p {
+    text-shadow: none;
+}
